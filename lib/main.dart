@@ -11,6 +11,7 @@ class HealthApp extends StatefulWidget {
   _HealthAppState createState() => _HealthAppState();
 }
 
+// アプリの状態
 enum AppState {
   DATA_NOT_FETCHED,
   FETCHING_DATA,
